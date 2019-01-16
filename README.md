@@ -5,9 +5,6 @@ Este proyecto es una simple app para probar GraphQL con GraphiQL.
 Podemos consultar los meses del año, cuantos y cuales tienen una cantidad determinada de dias.
 Además podemos agregar los nombres de las personas que cumplen años en esos meses.
 
-Pueden verlo funcionar en 
-
-<https://cumple-graphql.glitch.me/>
 
 El Proyecto
 ------------

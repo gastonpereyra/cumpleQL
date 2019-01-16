@@ -1,0 +1,16 @@
+""" Meses del Año """
+type Mes {
+    id: ID
+    nombre: String
+    dias: Int
+    """ Nombres de las personas que cumplen Años """
+    cumple: [String]
+}
+type Query {
+    """ Busca los meses """
+    mes(id: ID, nombre: String, dias: Int): [Mes]
+}
+type Mutation {
+    """ Agrega los nombres de las personas que cumplen años en el mes """
+    cumple(id: ID!, nombre: String!): Mes
+}

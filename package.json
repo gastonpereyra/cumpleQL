@@ -1,0 +1,35 @@
+{
+  "author": "Gaston Pereyra",
+  "name": "cumple-graphql",
+  "version": "0.0.1",
+  "description": "una API simple para guardar cumpleaños usando GraphQL",
+  "main": "server.js",
+  "scripts": {
+     "start": "nodemon ./server.js --exec babel-node -e js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-graphql": "^0.7.1",
+    "graphql": "^14.0.2",
+    "graphql-import": "^0.7.1",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/cumple-graphql"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "graphql"
+  ]
+}
