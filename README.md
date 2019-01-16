@@ -8,6 +8,8 @@ Además podemos agregar los nombres de las personas que cumplen años en esos me
 Pueden verlo funcionar en 
 
 <https://cumple-graphql.glitch.me/>
+o 
+<https://gastonpereyra.github.io/cumpleQL/.>
 
 El Proyecto
 ------------
